@@ -1,0 +1,611 @@
+{
+  "id": "8184cea2-9de2-4d17-bb7d-a0ebcedd29e5",
+  "version": "2.0",
+  "name": "Tests",
+  "url": "https://www.ryanair.com",
+  "tests": [{
+    "id": "3ee399cf-707d-4bc8-ba58-2a9984794f03",
+    "name": "Ryanair Test",
+    "commands": [{
+      "id": "d71616d0-776b-43b7-aee0-a57599a9209d",
+      "comment": "",
+      "command": "open",
+      "target": "/gb/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7aba4b84-8d51-4ec1-9300-6f3c56e11b46",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-button__departure",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae8908a6-225e-4b8e-a22c-e48056a1f8d9",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-button__departure",
+      "targets": [],
+      "value": "Lisbon"
+    }, {
+      "id": "f6a6b65b-1d32-4ee6-80dd-6ff29728c6a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.airport-item > span",
+      "targets": [
+        ["css=.airport-item > span", "css:finder"],
+        ["xpath=//ry-tooltip[@id='ry-tooltip-1']/div[2]/hp-app-controls-tooltips/fsw-controls-tooltips-container/fsw-controls-tooltips/fsw-origin-container/fsw-airports/fsw-airports-list/div[2]/div/fsw-airport-item/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b342aad-c7ae-4d67-91bb-f0fa3f657747",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-button__destination",
+      "targets": [
+        ["id=input-button__destination", "id"],
+        ["css=#input-button__destination", "css:finder"],
+        ["xpath=//input[@id='input-button__destination']", "xpath:attributes"],
+        ["xpath=//fsw-input-button[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1dd2bb66-3c4a-49a5-a497-fe354b66c627",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-button__destination",
+      "targets": [],
+      "value": "Paris"
+    }, {
+      "id": "ba210714-97d0-43ad-bfbd-ed2ba4c28e04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.airport-item > span",
+      "targets": [
+        ["css=.airport-item > span", "css:finder"],
+        ["xpath=//ry-tooltip[@id='ry-tooltip-2']/div[2]/hp-app-controls-tooltips/fsw-controls-tooltips-container/fsw-controls-tooltips/fsw-destination-container/fsw-airports/fsw-airports-list/div[2]/div/fsw-airport-item/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4de92b18-85ef-4f80-8488-ede914af6aaa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.m-toggle__month--after-selected",
+      "targets": [
+        ["css=.m-toggle__month--after-selected", "css:finder"],
+        ["xpath=//ry-tooltip[@id='ry-tooltip-5']/div[2]/hp-app-controls-tooltips/fsw-controls-tooltips-container/fsw-controls-tooltips/fsw-datepicker-container/fsw-datepicker/ry-datepicker-desktop/month-toggle/div/div[2]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25b538d5-7036-487e-a39a-c276b7ee389c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker__calendar--left .calendar-body__row:nth-child(2) > .calendar-body__cell-wrap:nth-child(19) > .calendar-body__cell",
+      "targets": [
+        ["css=.datepicker__calendar--left .calendar-body__row:nth-child(2) > .calendar-body__cell-wrap:nth-child(19) > .calendar-body__cell", "css:finder"],
+        ["xpath=//ry-tooltip[@id='ry-tooltip-5']/div[2]/hp-app-controls-tooltips/fsw-controls-tooltips-container/fsw-controls-tooltips/fsw-datepicker-container/fsw-datepicker/ry-datepicker-desktop/div/calendar/calendar-body/div[2]/div[19]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[19]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cc13bb8-8caa-4512-a4a2-0a1c5e28717a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker__calendar:nth-child(3) .calendar-body__row:nth-child(2) > .calendar-body__cell-wrap:nth-child(16) > .calendar-body__cell",
+      "targets": [
+        ["css=.datepicker__calendar:nth-child(3) .calendar-body__row:nth-child(2) > .calendar-body__cell-wrap:nth-child(16) > .calendar-body__cell", "css:finder"],
+        ["xpath=//ry-tooltip[@id='ry-tooltip-7']/div[2]/hp-app-controls-tooltips/fsw-controls-tooltips-container/fsw-controls-tooltips/fsw-datepicker-container/fsw-datepicker/ry-datepicker-desktop/div/calendar[2]/calendar-body/div[2]/div[16]/div", "xpath:idRelative"],
+        ["xpath=//calendar[2]/calendar-body/div[2]/div[16]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fdcfa82-09ad-45d4-9e6e-e82d59997320",
+      "comment": "",
+      "command": "click",
+      "target": "css=.passengers-picker__passenger-type:nth-child(3) .counter__button-wrapper--enabled",
+      "targets": [
+        ["css=.passengers-picker__passenger-type:nth-child(3) .counter__button-wrapper--enabled", "css:finder"],
+        ["xpath=//ry-tooltip[@id='ry-tooltip-6']/div[2]/hp-app-controls-tooltips/fsw-controls-tooltips-container/fsw-controls-tooltips/fsw-passengers-container/fsw-passengers/fsw-passengers-picker-container/fsw-passengers-picker/ry-counter/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b8a1558-6c3d-423e-baa8-e6b1aa793ccd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.passengers-picker__passenger-type:nth-child(5) .counter__button-wrapper--enabled",
+      "targets": [
+        ["css=.passengers-picker__passenger-type:nth-child(5) .counter__button-wrapper--enabled", "css:finder"],
+        ["xpath=//ry-tooltip[@id='ry-tooltip-6']/div[2]/hp-app-controls-tooltips/fsw-controls-tooltips-container/fsw-controls-tooltips/fsw-passengers-container/fsw-passengers/fsw-passengers-picker-container/fsw-passengers-picker/ry-counter[3]/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//ry-counter[3]/div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "720cb55d-ee3c-4da8-a5c9-45143b1a09cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.passengers__confirm-button",
+      "targets": [
+        ["css=.passengers__confirm-button", "css:finder"],
+        ["xpath=//ry-tooltip[@id='ry-tooltip-6']/div[2]/hp-app-controls-tooltips/fsw-controls-tooltips-container/fsw-controls-tooltips/fsw-passengers-container/fsw-passengers/div/button", "xpath:idRelative"],
+        ["xpath=//fsw-passengers/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Done')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12be6975-58b1-47d8-adfe-954e87f20b23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flight-search-widget__start-search > .ng-tns-c26-3",
+      "targets": [
+        ["css=.flight-search-widget__start-search > .ng-tns-c26-3", "css:finder"],
+        ["xpath=//ry-spinner", "xpath:position"],
+        ["xpath=//ry-spinner[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "608afb7a-77bf-4619-b38d-4c6e6f6fd5b3",
+      "comment": "Wait for next Screen",
+      "command": "waitForElementPresent",
+      "target": "css=.app-scroll-container",
+      "targets": [
+        ["css=.app-scroll-container", "css:finder"],
+        ["xpath=//flights-root/div/div/div", "xpath:position"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "8a51691c-af12-4c26-ac21-6cb332a157ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c35-10 .carousel-next > .ng-star-inserted",
+      "targets": [
+        ["css=.ng-tns-c35-10 .carousel-next > .ng-star-inserted", "css:finder"],
+        ["xpath=//button[2]/carousel-arrow", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef9207bc-ea86-48ca-bb7e-2f2bf659e498",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c35-10:nth-child(3) .date-item__price",
+      "targets": [
+        ["css=.ng-tns-c35-10:nth-child(3) .date-item__price", "css:finder"],
+        ["xpath=//li[3]/carousel-item/button/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd317d66-e33f-4b69-89bb-9860bec93151",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c38-19 .card-header",
+      "targets": [
+        ["css=.ng-tns-c38-19 .card-header", "css:finder"],
+        ["xpath=//flight-card/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee3f22df-1c9e-4873-804f-5f9d1ca37bc0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fare-card__button:nth-child(2)",
+      "targets": [
+        ["css=.fare-card__button:nth-child(2)", "css:finder"],
+        ["xpath=//fare-card/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue with Value fare')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3178714e-461c-4247-bcb7-a36c37f66e04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c35-13 .carousel-next svg",
+      "targets": [
+        ["css=.ng-tns-c35-13 .carousel-next svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9099adf0-f5b4-48a9-8a2f-5dbbc2c96440",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c35-13:nth-child(4) .date-item__date > div:nth-child(1)",
+      "targets": [
+        ["css=.ng-tns-c35-13:nth-child(4) .date-item__date > div:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/journey-container/journey/div/div[2]/div/carousel-container/carousel/div/ul/li[4]/carousel-item/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9b74b31-2939-42b2-b282-b08c7248b428",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c38-21 .card-header",
+      "targets": [
+        ["css=.ng-tns-c38-21 .card-header", "css:finder"],
+        ["xpath=//div[2]/journey-container/journey/flight-list/div/flight-card/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bca595d-1c91-4bec-9a15-cfe7d7ac6b02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fare-card__button:nth-child(2)",
+      "targets": [
+        ["css=.fare-card__button:nth-child(2)", "css:finder"],
+        ["xpath=//fare-card/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue with Value fare')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b23ee13b-7d68-41d1-bb09-a07a7d71fa57",
+      "comment": "Wait for Log Screen",
+      "command": "waitForElementPresent",
+      "target": "css=.login-touchpoint__expansion-bar",
+      "targets": [
+        ["css=.login-touchpoint__expansion-bar", "css:finder"],
+        ["xpath=//ry-login-touchpoint/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in later')]", "xpath:innerText"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "247a582b-b5e0-4c06-bfc8-ac9d1e1c8654",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-touchpoint__login-later",
+      "targets": [
+        ["css=.login-touchpoint__login-later", "css:finder"],
+        ["xpath=//button/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Log in later')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0d56dcd-de2f-420b-958b-dac373e82328",
+      "comment": "",
+      "command": "click",
+      "target": "id=formState.passengers.ADT-0.name",
+      "targets": [
+        ["id=formState.passengers.ADT-0.name", "id"],
+        ["name=formState.passengers.ADT-0.name", "name"],
+        ["css=#formState\\.passengers\\.ADT-0\\.name", "css:finder"],
+        ["xpath=//input[@id='formState.passengers.ADT-0.name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fef9e8a-57e9-494a-a25d-d6f784b7518f",
+      "comment": "",
+      "command": "type",
+      "target": "id=formState.passengers.ADT-0.name",
+      "targets": [],
+      "value": "Sónia"
+    }, {
+      "id": "4e7a424a-8852-4dac-b3b0-674805254552",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@type='button']",
+      "targets": [
+        ["css=.dropdown__toggle--error", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//ry-dropdown[@id='title-0-error-message']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//ry-dropdown/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'-')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99eb9f09-bdc0-459f-9aec-b5f4de80276d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted:nth-child(2) > .dropdown-item__link .dropdown-item__label",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(2) > .dropdown-item__link .dropdown-item__label", "css:finder"],
+        ["xpath=//ry-dropdown[@id='title-0-error-message']/div[2]/div/div/ry-dropdown-item[2]/button/div/div", "xpath:idRelative"],
+        ["xpath=//ry-dropdown-item[2]/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e33adbb6-b178-4280-8b4c-a6067a70feb7",
+      "comment": "",
+      "command": "click",
+      "target": "id=formState.passengers.ADT-0.surname",
+      "targets": [
+        ["id=formState.passengers.ADT-0.surname", "id"],
+        ["name=formState.passengers.ADT-0.surname", "name"],
+        ["css=#formState\\.passengers\\.ADT-0\\.surname", "css:finder"],
+        ["xpath=//input[@id='formState.passengers.ADT-0.surname']", "xpath:attributes"],
+        ["xpath=//ry-input-d[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c298f9b7-be02-4026-b3cb-813c89b0f017",
+      "comment": "",
+      "command": "type",
+      "target": "id=formState.passengers.ADT-0.surname",
+      "targets": [],
+      "value": "Pereira"
+    }, {
+      "id": "f7d6f0b0-672e-4167-9613-e7a8efae0b70",
+      "comment": "",
+      "command": "click",
+      "target": "id=formState.passengers.ADT-1.name",
+      "targets": [
+        ["id=formState.passengers.ADT-1.name", "id"],
+        ["name=formState.passengers.ADT-1.name", "name"],
+        ["css=#formState\\.passengers\\.ADT-1\\.name", "css:finder"],
+        ["xpath=//input[@id='formState.passengers.ADT-1.name']", "xpath:attributes"],
+        ["xpath=//pax-passenger-container[2]/pax-passenger/div/pax-passenger-details-container/pax-passenger-details/pax-passenger-details-form-container/pax-details-form/ry-input-d/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9842fac1-e6e2-4430-b024-20d7293b73a6",
+      "comment": "",
+      "command": "type",
+      "target": "id=formState.passengers.ADT-1.name",
+      "targets": [],
+      "value": "Diogo"
+    }, {
+      "id": "e88ae612-16c5-4af7-85a1-4c7370e9a929",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[@type='button'])[2]",
+      "targets": [
+        ["css=#title-0-error-message .dropdown__toggle", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//ry-dropdown[@id='title-0-error-message']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//pax-passenger-container[2]/pax-passenger/div/pax-passenger-details-container/pax-passenger-details/pax-passenger-details-form-container/pax-details-form/ry-dropdown/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'-')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a109d0f-462e-46bc-893f-63ff113a241b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-item__link--highlighted .dropdown-item__label",
+      "targets": [
+        ["css=.dropdown-item__link--highlighted .dropdown-item__label", "css:finder"],
+        ["xpath=//ry-dropdown[@id='title-0-error-message']/div[2]/div/div/ry-dropdown-item/button/div/div", "xpath:idRelative"],
+        ["xpath=//ry-dropdown-item/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05f71ed1-a16a-4a32-b562-459f33430474",
+      "comment": "",
+      "command": "click",
+      "target": "id=formState.passengers.ADT-1.surname",
+      "targets": [
+        ["id=formState.passengers.ADT-1.surname", "id"],
+        ["name=formState.passengers.ADT-1.surname", "name"],
+        ["css=#formState\\.passengers\\.ADT-1\\.surname", "css:finder"],
+        ["xpath=//input[@id='formState.passengers.ADT-1.surname']", "xpath:attributes"],
+        ["xpath=//pax-passenger-container[2]/pax-passenger/div/pax-passenger-details-container/pax-passenger-details/pax-passenger-details-form-container/pax-details-form/ry-input-d[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dc66e41-6632-4b1c-bae8-92b24d2d6b10",
+      "comment": "",
+      "command": "type",
+      "target": "id=formState.passengers.ADT-1.surname",
+      "targets": [],
+      "value": "Bettencourt"
+    }, {
+      "id": "243ba9f8-0529-495c-a18e-5e7c6dd4545f",
+      "comment": "",
+      "command": "click",
+      "target": "id=formState.passengers.CHD-0.name",
+      "targets": [
+        ["id=formState.passengers.CHD-0.name", "id"],
+        ["name=formState.passengers.CHD-0.name", "name"],
+        ["css=#formState\\.passengers\\.CHD-0\\.name", "css:finder"],
+        ["xpath=//input[@id='formState.passengers.CHD-0.name']", "xpath:attributes"],
+        ["xpath=//pax-passenger-container[3]/pax-passenger/div/pax-passenger-details-container/pax-passenger-details/pax-passenger-details-form-container/pax-details-form/ry-input-d/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91617942-6dba-48fa-92a0-c31e09db3e6d",
+      "comment": "",
+      "command": "type",
+      "target": "id=formState.passengers.CHD-0.name",
+      "targets": [],
+      "value": "Inês"
+    }, {
+      "id": "22673f29-86db-473a-be53-96000956e70e",
+      "comment": "",
+      "command": "click",
+      "target": "id=formState.passengers.CHD-0.surname",
+      "targets": [
+        ["id=formState.passengers.CHD-0.surname", "id"],
+        ["name=formState.passengers.CHD-0.surname", "name"],
+        ["css=#formState\\.passengers\\.CHD-0\\.surname", "css:finder"],
+        ["xpath=//input[@id='formState.passengers.CHD-0.surname']", "xpath:attributes"],
+        ["xpath=//pax-passenger-container[3]/pax-passenger/div/pax-passenger-details-container/pax-passenger-details/pax-passenger-details-form-container/pax-details-form/ry-input-d[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c59c9ccf-e104-4730-bf3e-e3dd5c246ebc",
+      "comment": "",
+      "command": "type",
+      "target": "id=formState.passengers.CHD-0.surname",
+      "targets": [],
+      "value": "Marçal"
+    }, {
+      "id": "e7963560-3409-4359-9470-2bdd9d240010",
+      "comment": "",
+      "command": "click",
+      "target": "css=.continue-flow__button",
+      "targets": [
+        ["css=.continue-flow__button", "css:finder"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e403f9b-6d56-4b8e-b811-ac1dfb85a881",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.header--info",
+      "targets": [
+        ["css=.header--info", "css:finder"],
+        ["xpath=//ry-portal[@id='ry-modal-portal']/div/seats-modal/ry-message-dialog/ry-dialog/div/div", "xpath:idRelative"],
+        ["xpath=//ry-dialog/div/div", "xpath:position"]
+      ],
+      "value": "Family seating\\n"
+    }, {
+      "id": "30758c9c-2304-46db-ab68-487c1a35c838",
+      "comment": "",
+      "command": "click",
+      "target": "css=.seats-modal__cta",
+      "targets": [
+        ["css=.seats-modal__cta", "css:finder"],
+        ["xpath=//ry-portal[@id='ry-modal-portal']/div/seats-modal/ry-message-dialog/ry-dialog/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Okay, got it.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a8cc526-eaa0-426f-86ef-bce1b1790a2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.seatmap__seatrow--20 > .seatmap__seats > .ng-star-inserted:nth-child(1)",
+      "targets": [
+        ["css=.seatmap__seatrow--18 > .seatmap__seats > .ng-star-inserted:nth-child(1)", "css:finder"],
+        ["xpath=//div[18]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f9be1ec-44f4-4172-95a5-c0e1b7f6f455",
+      "comment": "",
+      "command": "click",
+      "target": "css=.seatmap__seatrow--20 > .seatmap__seats > .ng-star-inserted:nth-child(2)",
+      "targets": [
+        ["css=.seatmap__seatrow--18 > .seatmap__seats > .ng-star-inserted:nth-child(2)", "css:finder"],
+        ["xpath=//div[18]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9d76ce0-1d11-4014-8df1-8d6bef4d43b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.seatmap__seatrow--20 > .seatmap__seats > .ng-star-inserted:nth-child(3)",
+      "targets": [
+        ["css=.seatmap__seatrow--18 > .seatmap__seats > .ng-star-inserted:nth-child(3)", "css:finder"],
+        ["xpath=//div[18]/div/button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f1f0a98-a60b-4235-9d05-c8540325b555",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ry-button",
+      "targets": [
+        ["css=.ry-button", "css:finder"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Next flight')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2145d28-545c-4e00-8d92-20b50d8ee8f4",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.seats-prompt__title:nth-child(2)",
+      "targets": [
+        ["css=.seats-prompt__title:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Reserve same seats on flight back?')]", "xpath:innerText"]
+      ],
+      "value": "Reserve same seats on flight back?\\n\\n"
+    }, {
+      "id": "767f3cbf-b9ac-4ea8-b5c9-95c737658dc2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.seats-prompt__cta:nth-child(3)",
+      "targets": [
+        ["css=.seats-prompt__cta:nth-child(3)", "css:finder"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Pick these seats')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3dbb4dc-0454-4ca7-bf85-6ed78c50728e",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.enhanced-takeover-beta__headline",
+      "targets": [],
+      "value": "Avoid the crowds and long queues.\\n"
+    }, {
+      "id": "25b5a749-4ef7-43b3-841e-dc00cde72907",
+      "comment": "",
+      "command": "click",
+      "target": "css=.enhanced-takeover-beta__product-dismiss-cta",
+      "targets": [
+        ["css=.enhanced-takeover-beta__product-dismiss-cta", "css:finder"],
+        ["xpath=//div[3]/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'No, thanks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48ba031c-4cec-4350-bfd2-f8dae663c047",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#bag-header-1 > span",
+      "targets": [
+        ["css=#bag-header-1 > span", "css:finder"],
+        ["xpath=//h3[@id='bag-header-1']/span", "xpath:idRelative"],
+        ["xpath=//h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Do you want to add Priority & 2 Cabin Bags?*')]", "xpath:innerText"]
+      ],
+      "value": "Do you want to add Priority & 2 Cabin Bags?*\\n"
+    }, {
+      "id": "b62701c5-8ce8-4878-baa3-64d61fa5bb3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product:nth-child(1) .ry-radio-circle-button__label",
+      "targets": [
+        ["css=.product:nth-child(1) .ry-radio-circle-button__label", "css:finder"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60753c3f-53da-4d10-8aad-f348d328ec9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ry-button--gradient-yellow",
+      "targets": [
+        ["css=.ry-button--gradient-yellow", "css:finder"],
+        ["xpath=//bags-continue-flow/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1660d5d7-7c27-4c88-acf9-e9874ae0ca8d",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.products-list__title",
+      "targets": [
+        ["css=.products-list__title", "css:finder"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": "Anything else for your trip?\\n"
+    }, {
+      "id": "b9da924b-ce60-468c-b627-3bf138132500",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ry-button--full",
+      "targets": [
+        ["css=.ry-button--full", "css:finder"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6aa7d47e-7d90-4cfa-b0d8-be794ca77fb1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3ee399cf-707d-4bc8-ba58-2a9984794f03"]
+  }],
+  "urls": ["https://www.ryanair.com/gb/en", "https://www.ryanair.com/"],
+  "plugins": []
+}
